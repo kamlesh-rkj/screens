@@ -44,7 +44,7 @@ class _Screen1State extends State<Screen1> {
             showUnselectedLabels: false,
             showSelectedLabels: false,
 
-            backgroundColor: Colors.deepPurple.withOpacity(0.75),
+            backgroundColor:Color.fromRGBO(55, 56, 86, 0.8),
             currentIndex: _selectedIndex,
 
             selectedItemColor: Colors.black,
@@ -55,11 +55,11 @@ class _Screen1State extends State<Screen1> {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          Image.asset("assets/images/artboard.png",
+          Image.asset("assets/images/artboard2.jpg",
               fit: BoxFit.cover, filterQuality: FilterQuality.low),
-          Container(
-            color: Colors.black.withOpacity(0.4),
-          ),
+          // Container(
+          //   color: Colors.black.withOpacity(0.4),
+          // ),
           Column(
             children: [
               Expanded(

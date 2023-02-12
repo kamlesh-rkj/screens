@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:screens/demo.dart';
 import 'package:screens/screen2.dart';
+import 'package:screens/screen3.dart';
 
 import 'screen1.dart';
 
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Screen1()
+      home: Screen3()
     );
   }
 }
