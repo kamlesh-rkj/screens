@@ -27,12 +27,12 @@ class _Screen1State extends State<Screen1> {
             ),
             BottomNavigationBarItem(
                 icon: Icon(Icons.bar_chart_sharp),
-                label: 'Sreen 2',
+                label: 'Screen 2',
                 // backgroundColor: Colors.yellow,
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.person),
-              label: 'Sreen 3',
+              label: 'Screen 3',
 
               // backgroundColor: Colors.blue,
 

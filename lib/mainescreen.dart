@@ -12,7 +12,7 @@ class Mainscreen extends StatelessWidget {
       appBar: AppBar(title: Center(child: Text("  SCREEN  ")),),
       body: Column(
         children: [
-          InkWell(onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context)=> Screen1())),child: Container(margin: EdgeInsets.all(10),color: Colors.greenAccent,child: Center(child: Text(" Scrren 1 ")),)),
+          InkWell(onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context)=> Screen1())),child: Container(margin: EdgeInsets.all(10),color: Colors.greenAccent,child: Center(child: Text(" Screen 1 ")),)),
           InkWell(onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context)=> Screen2())),child: Container(margin: EdgeInsets.all(10),color: Colors.greenAccent,child: Center(child: Text(" Screen 2 ")),)),
           InkWell(onTap:() => Navigator.push(context, MaterialPageRoute(builder: (context)=> Screen3())),child: Container(margin: EdgeInsets.all(10),color: Colors.greenAccent,child: Center(child: Text("Screen 3 ")),)),
         ],
